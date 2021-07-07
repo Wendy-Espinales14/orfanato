@@ -52,6 +52,7 @@ id_actividades integer primary key,
 );
 create table tios_as (
 id_tios_as integer primary key,
+	id_niños integer,
 	nombres varchar (25),
 	apellidos varchar (25),
 	cedula integer,
@@ -75,15 +76,10 @@ id_citatorios integer primary key,
 	id_institucion integer,
 	numero_citatorios integer 
 );
-create table niños_adoptados (
-id_niños_adoptados integer primary key,
-	id_padres_adoptivos integer,
-	nombres varchar (25),
-	apellidos varchar (25),
-	fecha_nacimiento date 
-);
+
 create table padres_adoptivos (
 id_padre_adoptivos integer primary key,
+	id_niños integer,
 	cedula_pa integer,
 	cedula_ma integer,
 	nombre_pa varchar (25),
@@ -99,10 +95,3 @@ id_padre_adoptivos integer primary key,
 	estado_vivienda varchar (25)
 );
 
-create table niños_no_adoptados(
-id_niños_no_adoptados integer primary key,
-	id_padres_bilogicos integer,
-	nombre varchar(25),
-	apellidos varchar(25),
-	fecha_nacimiento integer
-);
