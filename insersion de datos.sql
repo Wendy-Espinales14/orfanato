@@ -33,17 +33,11 @@ insert into padres_biologicos values (10,104557,232087,'javier','cedeño',
 '1989/02/14','francisca','moreno','1990/06/15',0908770,09174949,'montecristi');
 
 /*insertar tios(as)*/
-insert into tios_as values (1,'encarnacion','rubio','365974','calle 13-manta',0936825,'2007/04/12',2010,10,1);
-insert into tios_as values (2,'laura','alfaro','364972','leonidas proaño',0834625,'2000/05/10',2003,5,2);
-insert into tios_as values (3,'cristina','molina','320974','el carmen',0936825,'2001/07/19',2005,15,3);
-insert into tios_as values (4,'juana','romero','365544','los bajos',0936825,'2007/05/08',2008,9,4);
-insert into tios_as values (5,'luis','muñoz','325674','flavio alfaro',0936825,'2003/06/14',2004,7,5);
-insert into tios_as values (6,'alberto','lozano','365373','guayas',0936825,'2008/04/02',2009,13,6);
-insert into tios_as values (7,'rosario','castillo','325073','amaguaña',0936825,'2010/07/22',2014,20,7);
-insert into tios_as values (8,'pilar','serrano','315914','ambato',0936825,'2007/09/11',2011,12,8);
-insert into tios_as values (9,'francisco','saez','364972','san lorenzo',0936825,'2007/10/24',2013,5,9);
-insert into tios_as values (10,'lucia','hernandez','335874','cuba',0936825,'1999/04/02',2000,30,10);
-
+insert into tios_as values (1,'encarnacion','rubio','365974','calle 13-manta',0936825,2010);
+insert into tios_as values (2,'laura','alfaro','364972','leonidas proaño',0834625,2003);
+insert into tios_as values (3,'cristina','molina','320974','el carmen',0936825,2005);
+insert into tios_as values (4,'juana','romero','365544','los bajos',0936825,2008);
+insert into tios_as values (5,'luis','muñoz','325674','flavio alfaro',0936825,2004);
 /*institucion*/
 insert into instituciones_educativas values (1,'unidad educativa manabi');
 insert into instituciones_educativas values (2,'UE eloy alfaro');
@@ -148,29 +142,7 @@ insert into padres_adoptivos values (9,173476,239697,'camilo','amaguaña','marth
 insert into padres_adoptivos values (10,120450,032080,'antonio','mendez','luisana','arrollo'
 		,0934543,0978781,'el empalme','tecnologo','contadora','muy bueno','bueno');		
 		
-/*niños_adoptados*/
-insert into niños_adoptados values (1,1,'jostin','mero','2005/07/12');
-insert into niños_adoptados values (2,2,'annie','espimal','2006/03/02');
-insert into niños_adoptados values (3,3,'anali','muentes','2004/07/21');
-insert into niños_adoptados values (4,4,'javier','prado','2003/03/12');
-insert into niños_adoptados values (5,5,'carlos','mero','2005/08/12');
-insert into niños_adoptados values (6,6,'juan pablo','mero','2004/04/12');
-insert into niños_adoptados values (7,7,'mar','mero','2008/10/12');
-insert into niños_adoptados values (8,8,'luna','mero','2010/11/07');
-insert into niños_adoptados values (9,9,'pablo','mero','2011/02/08');
-insert into niños_adoptados values (10,10,'jefferson','mero','2009/12/12');
 
-/*niños no adoptados */
-insert into niños_no_adoptados values (1,1,'timoteo','garcia','2004/06/13');
-insert into niños_no_adoptados values (2,2,'katty','gonzales','2003/04/03');
-insert into niños_no_adoptados values (3,3,'jhonatan','cedeño','2005/03/23');
-insert into niños_no_adoptados values (4,4,'cristrian','plua','2007/10/09');
-insert into niños_no_adoptados values (5,5,'mishelle','delgado','2008/09/04');
-insert into niños_no_adoptados values (6,6,'melanie','macias','2007/01/07');
-insert into niños_no_adoptados values (7,7,'andres','mancilla','2009/02/11');
-insert into niños_no_adoptados values (8,8,'cristal','ascanio','2010/11/12');
-insert into niños_no_adoptados values (9,9,'naomi','perez','2011/10/14');
-insert into niños_no_adoptados values (10,10,'stefania','reyes','2009/04/04');
 
 /*tipos de orfandad*/
 insert into tipos_orfandad values (1,1,'padres muertos');
